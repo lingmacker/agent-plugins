@@ -1,0 +1,12 @@
+{
+  "name": "agent-plugins-marketplace",
+  "private": true,
+  "type": "module",
+  "workspaces": ["plugins/*"],
+  "scripts": {
+    "plugins": "bun scripts/marketplace.ts list",
+    "new": "bun scripts/marketplace.ts new",
+    "check": "bun scripts/marketplace.ts check",
+    "test": "bun test"
+  }
+}

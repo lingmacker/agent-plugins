@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "agent-plugins",
+  "description": "A small collection of Oh My Pi plugins.",
+  "owner": {
+    "name": "Lingmacker"
+  },
+  "plugins": [
+    {
+      "name": "omp-codex-token-remaining",
+      "description": "Show remaining Codex plan quota below the OMP prompt",
+      "source": "./plugins/omp-codex-token-remaining",
+      "category": "productivity"
+    }
+  ]
+}

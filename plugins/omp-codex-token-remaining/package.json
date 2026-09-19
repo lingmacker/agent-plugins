@@ -1,0 +1,12 @@
+{
+  "name": "omp-codex-token-remaining",
+  "version": "1.0.0",
+  "description": "Show remaining Codex plan quota below the OMP prompt",
+  "private": true,
+  "scripts": {
+    "test": "bun test"
+  },
+  "omp": {
+    "extensions": ["./index.ts"]
+  }
+}
